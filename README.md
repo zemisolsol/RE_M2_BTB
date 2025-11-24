@@ -1,4 +1,4 @@
-# Reverse Engineering the Branch Target Buffer Organizations on Apple M2 #
+# Reverse Engineering Apple M2's BTB Organizations #
 
 ## How to Run ##
 
