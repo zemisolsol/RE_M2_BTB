@@ -52,13 +52,14 @@ def BTB_CAPACITY():
     for i, row in enumerate(transposed):
         branches = B[i] 
         values = ' '.join(f'{val:.2f}' for val in row)
-        print(f'{branches} {values}')
+        print(f'{branches}, {values}')
     
     with open('result.txt', 'w') as f:
         for i, row in enumerate(transposed):
             branches = B[i] 
             values = ' '.join(f'{val:.2f}' for val in row)
-            print(f'{branches} {values}', file=f)
+            #print(f'{branches}, {values}', file=f)
+            print(f'{values}', file=f)
 
 tgt = TargetMachine()
 
